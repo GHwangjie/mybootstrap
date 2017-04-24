@@ -1,0 +1,24 @@
+_satellite.pushAsyncScript(function(event, target, $variables){
+  if(document.getElementById("content")){
+  var scrollTop = new Waypoint({
+    element: document.getElementById("content"),
+    handler : function(direction) { 
+      if(direction=="up"){
+        _satellite.setVar('scrollTrack','scroll:top');
+        _satellite.track('home_scroll');
+      }
+    }
+  });
+
+  var scrollBottom = new Waypoint({
+    element: document.getElementById("content"),
+    handler: function(direction){
+      if(direction=="down"){
+       _satellite.setVar('scrollTrack','scroll:bottom');
+       _satellite.track('home_scroll');
+      }
+    },
+    offset: 'bottom-in-view'
+  });
+}
+});

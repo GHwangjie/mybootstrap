@@ -1,0 +1,475 @@
+/*头部标题导航栏、、、、、、、、*/
+.nav{
+	width: 100%;
+	background: #EFEFEF;
+}
+.a{
+	text-align: center;
+	margin:0 auto;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+h5{
+	display: inline-block;
+	font-weight: 700;
+}
+
+.a a{
+	display: inline-block;
+	margin-left: 18px;
+	font-weight: 700;
+	font-size: 13px;
+	color:#1428A0;
+	text-decoration: none;
+	
+}
+.a span a{
+	margin-left: -4px;
+	vertical-align: 2px;
+}
+i {
+	display: block;
+	float: right;
+	margin-right: 30px;
+	margin-top: 8px;
+	
+}
+.iconfont{
+	color: black;
+	font-weight: 700;
+	font-size: 13px;
+
+}
+/*头部导航栏（小屏默认的时候）、、、、、、、、*/
+.header_bottom{
+	width: 100%;
+	height: 64px;
+	border-bottom: 1px solid gray;
+	
+}
+.header_bottom_main{
+	width: 95%;
+	height: 64px;
+	position: relative;
+}
+.list{
+	font-size: 30px;
+	line-height: 64px;
+	margin-left:10px;
+	float: left;
+
+
+}
+.header_bottom_main{
+	margin:0 auto;
+}
+#logo1{
+	position:absolute;
+	top: 0px;
+	left:40%;
+	margin:0 auto;
+}
+#logo1 a{
+	line-height: 64px;
+}
+.icon-sousuo{
+	font-size: 22px;
+	line-height: 64px;
+	margin-top: 0px;
+	/*padding-right: -30px;*/
+
+}
+.bigbox1{
+	padding-left: 0px;
+	padding-right:0px;
+}
+.smallbox1{
+	padding-left: 0px;
+	padding-right:0px;
+}
+/*身体大图部分、、、、、、、、、、、、*/
+.s7{
+	text-align: center;
+
+}
+.s7 h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -2px;
+}
+.s7 p{
+	font-family: '微软雅黑';
+	margin-bottom: 13px;
+	font-size: 20px;
+
+}
+.botton a{
+	display: inline-block;
+	border:2px solid black;
+	border-radius: 5px;
+	padding:14px !important;
+	font:12px '微软雅黑';
+	font-weight: 700; 
+	color: black;
+	margin: 4px;
+
+}
+.botton a i{
+	display: inline-block;
+	font-size:10px; 
+	margin-top: 2px;
+	margin-left: 3px;
+}
+#body2{
+		display: none;
+}
+section{
+	border-bottom: 1px solid gray;
+}
+/*尾部、、、、、、、、、、、、*/
+footer .box2{
+	border-bottom: 1px solid gray;
+}
+footer .p{
+	font:12px '微软雅黑' ;
+	padding: 28px;
+}
+footer .box3{
+	border-bottom: 1px solid black;
+}
+.aa1{
+	display: block;
+	text-align: center;
+	padding: 20px;
+}
+.aa a{
+	color: black;
+}
+.footer_main{
+	
+	border-bottom: 1px solid black;
+}
+strong a{
+	font: 12px '微软雅黑';
+	color:black;
+	font-weight: 700;
+	text-decoration: none;
+}
+.ula li{
+	margin-top: 13px;
+}
+.ula li a{
+	color: black;
+	font:12px '微软雅黑';
+}
+.box5{
+	/*	padding: 27px;*/
+	border-bottom: 1px solid black;
+}
+.box5 .ulb{
+	/*line-height: 28px;*/
+	margin-top: 28px;
+}
+.ulb li {
+	line-height: 28px;
+}
+
+.box5 .icon-chanpin{
+	font-size: 20px !important;
+}
+.box5 .icon-dianzhongdian{
+	font-size: 20px !important;
+}
+.box5 .icon-lianxiwomen{
+	font-size: 20px !important;
+}
+ .ulb i{
+	font: 12px '微软雅黑';
+	margin-right: 330px;
+}
+.box5 .ulb li{
+	display: inline-block;
+	padding-right: 30px;
+}
+.ulc{
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+.ulc li a{
+	font-size: 40px;
+	float:left;
+	padding-right: 30px;
+	margin-top: 12px;
+}
+.box6{
+	padding:0px;
+	
+}
+.uld{
+	margin-top: 10px;
+	margin-left: 18px;
+}
+.uld .icon-xinxi{
+	font-size: 30px;
+
+}
+.uld li span{
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+.china{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#china{
+	font:12px '微软雅黑';
+}
+
+.footer_bottom{
+	background-color: black;
+}
+.box7{
+	padding: 27px;
+	
+}
+.ulf  li {
+	display: block;
+	width: 68px;
+	float: left;
+}
+.ulf  li a{
+	font:12px '微软雅黑';
+	color: white;
+	font-weight: 700;
+}
+#aa{
+	text-align: right;
+}
+#aa a{
+	font-size: 13px;
+}
+#p{
+	font:10px '微软雅黑';
+	color: white;
+	padding-left: 10px;
+
+}
+/*新导航栏、、、、、、、、、、、、、、、*/
+	.header_bottom_fake{
+		border-bottom:1px solid gray;
+		display: none;
+		position: relative;
+	}
+	.header_bottom_main{
+		margin-left: 0px;
+		margin:0 auto;
+		 max-width: 1254px;
+    	min-width: 320px;
+
+	}
+	.ulx li{
+		text-align: center;
+		float: left;
+		width: 84px;
+		height:77px;
+	}
+	.ulx li:hover .firstmenu{
+		display: block;
+	}
+	.ulx li a{
+		font-size: 10px;
+		color: black;
+		font-weight: 700;
+		line-height:77px;
+	}
+	#tv{
+		text-align: center;
+		width: 36px;
+	}
+	.header_bottom_fake .logo{
+		position: absolute;
+		top: 0px;
+		left: 50%;
+		margin-left: -65px;
+
+	}
+	.right_fake{
+		float: right;
+	}
+	.ulxx li{
+		/*height: 64px;*/
+		float: right;
+	}
+	.ulxx li a{
+		font:10px '微软雅黑';
+		color: black;
+		font-weight: 700;
+		line-height: 64px;
+
+	} 
+	.icon-sousuo{
+		font-weight: 700;
+		margin-left: 10px;
+
+	}
+	.business a{
+		padding: 10px;
+	}
+/*二级菜单、、、、、、、、、、、、、、、*/
+	.firstmenu{
+		width: 100%;
+		z-index: 1;
+   		background-color:white;
+   		display: none;
+   		position: absolute;
+   		top: 80px;
+   		left: 0px;
+	}
+	.first{
+		    max-width: 1254px;
+    		min-width: 320px;
+    		margin: 0 auto;
+    		overflow: hidden;
+    		
+	}
+	
+	.first_main{
+		margin-top: 30px;
+	}
+	.first_main .leftul ul li{
+		line-height: 20px !important;
+		list-style: none;
+		float: none;
+	}
+	.leftul ul{
+		float: left;
+
+	}
+	.leftul .ulm{
+		margin-left: 80px;
+	}
+	.rightul{
+		padding: 30px;
+	}
+	.uln{
+		border-left:1px solid gray;
+	}
+	.leftul img{
+		margin-left: 50px;
+		float: right;
+	}
+	.ulnn{
+		margin-left: 300px;
+		border-left:1px solid gray;
+	}
+	.rightlogo{
+		position:fixed;
+		right: 0px;
+		top: 40%;
+	}
+/*一次断点处、、、、、、、*/
+@media screen and (max-width: 768px){
+	#body1{
+		display: block;
+	}
+
+
+
+}
+/*二次断点处、、、、、、、*/
+@media screen and (min-width: 768px) and (max-width: 1025px){
+	#body1{
+		display: none;
+	}
+	#body2{
+		display: block;
+	}
+	.s7{
+	padding-top: 100px;
+	text-align: center;
+
+     }
+     footer .p{
+	font:12px '微软雅黑' ;
+	padding: 20px;
+
+	}
+	.box3 .aa{
+		text-align: right;
+	}
+	.box7{
+		display: inline-block;
+	}
+	.footer_bottom .aa{
+		display: inline-block;
+		float: right;
+	}
+	.box5{
+		border-bottom:none;
+		padding:0px;
+	}
+	.footer_main{
+		border-bottom: none;
+	}
+	footer .box3{
+		border-bottom: none;
+	}
+	.government .box6{
+		padding: 0px;
+	}
+	.uld{
+		margin-left: 20px;
+	}
+	#body2 .bigbox1 h2{
+		font-size: 30px;
+	}
+	#logo1{
+	position:absolute;
+	top: 0px;
+	left:40%;
+	margin:0 auto;
+	}
+
+}
+/*三次断点处、、、、、、、*/
+@media screen and (min-width: 1025px){
+	#body1{
+		display: none;
+	}
+	#body2{
+		display: block;
+	}
+	.header_bottom{
+		display: none;
+	}
+	.header_bottom_fake{
+		display: block;
+	}
+	.box5{
+		border-bottom:none;
+		padding:0px;
+	}
+	.footer_main{
+		border-bottom: none;
+	}
+	footer .box3{
+		border-bottom: none;
+	}
+	.top1{
+		margin-top: 135px;
+	}
+	#logo1{
+	position:absolute;
+	display: block;
+	top:0;
+	left:40%;
+	margin:0 auto;
+	}
+
+}
+
+
+

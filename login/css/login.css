@@ -1,0 +1,177 @@
+
+/*小屏、、、、、、、、、、*/
+.welcome{
+	width: 100%;
+	height:48px;
+}
+.welcome h4{
+	font-weight: 700;
+}
+.welcome p{
+	margin-left: 50px;
+	font:18px/48px '微软雅黑';
+}
+#select{
+	border:0;
+	width: 100%;
+	height: 48px;
+}
+.phone input{
+	height: 48px;
+	width: 100%;
+	border: 0;
+}
+.yanzheng{
+	display: table;
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+}
+.tel2{
+	display: table-cell;
+}
+.tel2 input{
+	line-height:48px;
+	width: 100%;
+	padding: 0px;
+	border:0;
+}
+.get{
+	display: table-cell;
+	text-align: right;
+}
+.login_input{
+	width: 100%;
+	height: 56px;
+	border:0;
+}
+button{
+	width: 100%;
+	height: 56px;
+	background: white;
+	color: red;
+	border:1px solid red;
+}
+.foot{
+	line-height: 56px;
+	text-align: center;
+}
+.foot i{
+font-style:normal;
+}
+
+
+/*大屏、、、、、、、、、、、、、、、*/
+.header{
+	line-height: 50px;
+}
+
+.headerleft{
+	float: left;
+}
+.headerright{
+	float: right;
+}
+.headerright a{
+	padding-left: 20px;
+
+}
+.second {
+	text-align: center;
+}
+.login_content .select1{
+	margin:0 auto;
+	width: 50%;
+}
+.phone1 {
+	margin:0 auto;
+	text-align: center;
+}
+.phone1 input{
+	height: 48px;
+	width: 50%;
+	
+}
+.tel2 {
+	display: block;
+	float: left;
+}
+.tel2 input{
+	width: 50%;
+}
+.yanzheng1{
+	width: 50%;
+	margin:0 auto;
+	border:1px solid gray; 
+
+}
+.get{line-height:50px; 
+	display:block;
+	text-align: right;
+}
+.ps1{
+	width: 50%;
+	margin:0 auto;
+	border:1px solid gray; 
+
+}
+.botton{
+	margin:0 auto;
+	width: 50%;
+}
+
+/*尾部链接、、、、、、、、、、*/
+.img{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.img img{
+	width: 300px;
+
+}
+.img div{
+	margin-top: 20px;
+}
+.img a{
+	display:inline-block;
+
+}
+
+.img1{
+	text-align: center;
+}
+.img2{
+	text-align: center;
+}
+.img3{
+	text-align: center;
+}
+
+.link img{
+	width: 200px;
+
+}
+.link{
+	text-align: center;
+}
+.link .p{
+	text-align: left;
+}
+.link span{
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 768px){
+	.login1{
+		display:block;
+	}
+	.login2{
+		display: none;
+	}
+}
+@media screen and (min-width: 768px){
+	.login1{
+		display:none;
+	}
+}

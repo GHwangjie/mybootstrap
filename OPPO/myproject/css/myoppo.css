@@ -1,0 +1,439 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+/*旧头部、、、、、、、、、、、、、、、、、、、、、、、*/
+	.header{
+		width: 100%;
+		height:65px;
+		overflow-x:scroll;
+		background: pink;
+	}
+	.header_main{
+		margin:0 auto;
+		width: 95%;
+		height: 48px;
+	}
+	.wrapper{
+		width: 100%;
+		height: 48px;
+		text-align: center;
+		margin:auto;
+	}
+	.wrapper a{
+		cursor: pointer;
+	}
+	
+	.wrapper img{
+		width: 104px;
+		border:0;
+		margin-top: 14px;
+		vertical-align:middle;
+	}
+	.nav{
+		width: 1000px;
+		height: 60px;
+		text-align: center;
+		position:absolute;
+		left: 0px;
+		z-index: 1;
+		display: none;
+		opacity: 0.8;
+		background-color:pink;
+	}
+	.meun{
+		border-top: 1px solid black;
+		padding: 0 20px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.meun li {
+		padding: 0 10px;
+	}
+	.meun li a{
+		display: block;
+		width: 76px;
+		height: 60px;
+		color: green;
+	}
+	.list:hover .nav{
+		display: block;
+	}
+	.meun2{
+		height: 360px;
+		text-align: center;
+		position:absolute;
+		right:30px;
+		top:60px;
+		z-index: 2;
+		opacity: 0.8;
+		background-color: white;
+		display: none;
+	}
+	#d{
+		border-bottom: none;
+	}
+	.meun2 li{
+		border-bottom: 1px solid green;
+		list-style: none;
+		line-height: 60px;
+	}
+	.meun2 li a{
+		font-weight: bold;
+		font-size:15px;
+		display: block;
+		width: 92px;
+		height: 60px;
+		color: green;
+	}
+	.list1:hover .meun2{
+		display: block;
+	}
+	.list{
+		float: left;
+		line-height: 48px;
+	}
+	.meun li {
+		float:left;
+		list-style: none;
+	}
+	.list a{
+		text-decoration: none;
+		display: block;
+		font-size: 22px;
+	}
+	.list1 .icon-iconren{
+		color: green;
+	}
+	.list1{
+		float: right;
+		line-height: 48px;
+	}
+	.list1 a{
+		text-decoration: none;
+		display: block;
+		font-size: 23px;
+	}
+/*图片---------------------------------------------------*/
+		.bigpicture a {
+			display: block;
+			cursor: pointer;
+			position: relative;
+			z-index: 0;
+		}
+		.smallicture a {
+			display: block;
+			cursor: pointer;
+		}
+/*foot文字部分、、、、、、、、、、、、、、、、、、、、、、、*/
+	.p{
+	float: left;
+	padding: 24px 0;
+	}
+	.p .p1{
+		font-size: 25px;
+		font-weight: 700;
+
+	}
+	.p .p2{
+		font-size: 13px;
+	}
+	.kefu {
+
+		float: right;
+	}
+	.smallbox2{
+		padding: 14px 0;
+	}
+	.smallbox2 span{
+		font-size: 10px;
+	}
+	.smallbox2 span a{
+		font-size: 30px;
+		text-decoration: none;
+	}
+/*icon 图标部分、、、、、、、、、、、、、、、、、、、、、、、*/
+	.icon-weibo{
+		color: red;
+	}
+	.iconfont icon-weixin{
+		font-size:15px;
+		color: green;
+	}
+	.icon-zhifubao{
+		color: lightblue;
+	}
+	#about{
+		font-size: 14px;
+		color: gray;
+	}
+
+	#c{
+	font-size: 20px;
+	color: gray;
+	vertical-align: -3px;
+
+	}
+	.hui {
+	display: block;
+	width: 23px;
+	height: 26px;
+	text-align: center;
+	margin: 0 auto;
+	}
+	.smallbox2 p{
+		text-align: center;
+	}
+	.smallbox3 p{
+		color: gray;
+		letter-spacing: -1px;
+		font-size: 13px;
+		line-height: 15px;
+	}
+	
+	.ula{
+		display: none;
+		float: left;
+		padding: 4px 0;
+		margin-top: 10px;
+		overflow: hidden;
+	}
+	.ula li{
+		float: left;
+		list-style: none;
+		padding: 0 37px;
+
+	}
+	.ula li h3{
+		padding-bottom: 14px;
+	}
+	.ula a{
+		text-decoration: none;
+		color: gray;
+		
+		font:13px/30px '微软雅黑';
+	}
+	#change1{
+	display: none;
+}
+
+
+/*新导航栏出现//////////////////////////////*/
+	.header0{
+		width: 100%;
+		height: 28px;
+		background: green;
+		z-index: 1;
+		position: fixed;
+	}
+	.header0_top {
+		
+	}
+
+	.header0_top ul {
+		margin-right: 20px;
+		overflow: hidden;
+		opacity:0.6;
+	}
+	.header0_top ul li{
+		text-align: center;
+		width: 66px;
+		list-style: none;
+		float: right;
+		
+		border-left: 1px solid white;
+	}
+	.header0_top ul li a{
+		display: block;
+		text-decoration: none;
+		color:white;
+		font:13px/28px '微软雅黑';
+	}
+	.header0_top ul li:hover{
+		background:gray;
+		/*opacity: 0.2;*/
+	}
+	.header_bottom{
+		
+		height:78px;
+		width:100%;
+		background:white;
+		position: fixed;
+
+	}
+	.header_bottom .main{
+		width: 95%;
+		margin: 0 auto;
+		height: 78px;
+	}
+	.logo0{
+		float: left;
+	}
+	.logo0 img{
+		vertical-align:-40px;
+	}
+	.ul0{
+		text-align: center;
+		
+	}
+	.ul0 ul li{
+		width: 80px;
+		float: right;
+		list-style: none;
+		line-height: 78px;
+	}
+	.ul0 ul li a{
+		text-decoration: none;
+		font:15px '微软雅黑';
+		color: gray;
+		padding-bottom: 5px;
+
+	}
+	.ul0 ul li a:hover{
+		color: black;
+	}
+	#shouye a{
+		border-bottom: 2px solid green;
+	}
+
+	body{
+		z-index: 0;
+	}
+
+/*小屏.......、、、、、、、、、、、、、、、、、、、、、、、*/
+@media screen and (max-width:860px)
+	{
+/*隐藏新导航栏、、、、、、、、、、、、、、、、、、、、、、、*/
+	.header0{
+		display: none;
+	}
+/*小屏分割成12份、、、、、、、、、、、、、、、、、、、、、、、*/
+	.col-xs-1{
+		width: 8.33%;
+	}
+	.col-xs-2{
+		width: 16.66%;
+	}
+	.col-xs-3{
+		width: 25%;
+	}
+	.col-xs-4{
+		width: 33.33%;
+	}
+	.col-xs-5{
+		width: 41.66%;
+	}
+	.col-xs-6{
+		width: 50%;
+	}
+	.col-xs-7{
+		width: 58.33%;
+	}
+	.col-xs-8{
+		width: 66.66%;
+	}
+	.col-xs-9{
+		width: 74.99%;
+	}
+	.col-xs-10{
+		width: 83.32%;
+	}
+	.col-xs-11{
+		width: 91.65%;
+	}
+	.col-xs-12{
+		width: 100%;
+	}
+	
+}
+/*大屏分割成12份、、、、、、、、、、、、、、、、、、、、、、、*/
+@media screen and (min-width:860px){
+	.smallbox2 p{
+		text-align:left;
+	}
+	.smallpicture div{
+		float: left;
+		margin: 
+	}
+	#change1{
+		display: block;
+	}
+	.bigpicture{
+		display: none;
+	}
+
+
+	.wrapper .p{
+		float: right;
+	}
+	.ula{
+		display: block;
+	}
+	.p{
+		/*float: right;*/
+	}
+	.boxsmall{
+		float: right;
+		margin-top:30px;
+	}
+	/*新导航出现 。。。。。。。。 -----*/
+	.header_main{
+		display: none;
+	}
+	.header{
+	
+		overflow:visible;
+	}
+/*微博 微信 支付宝图标变色............................-----*/
+	.top a{
+		color: gray;
+	}
+	.top .icon-weibo:hover {
+		color: red;
+	}
+	.top .icon-weixin:hover {
+		color: green;
+	}
+	.top .icon-zhifubao:hover {
+		color: lightblue;
+	}
+
+/*大屏分割成12份、、、、、、、、、、、、、、、、、、、、、、、*/
+	.col-md-1{
+		width: 8.33%;
+	}
+	.col-md-2{
+		width: 16.66%;
+	}
+	.col-md-3{
+		width: 25%;
+	}
+	.col-md-4{
+		width: 33.33%;
+	}
+	.col-md-5{
+		width: 41.66%;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-7{
+		width: 58.33%;
+	}
+	.col-md-8{
+		width: 66.66%;
+	}
+	.col-md-9{
+		width: 74.99%;
+	}
+	.col-md-10{
+		width: 83.32%;
+	}
+	.col-md-11{
+		width: 91.65%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}

@@ -1,0 +1,289 @@
+@charset 'utf-8';
+/*头部导航*/
+.nav{
+	width:100%;
+	background-color: #f7f7f7;
+}
+.nav_main{
+	width:1000px;
+	background-color: #f7f7f7;
+	margin:0 auto;
+	line-height: 30px;
+}
+.nav_main .nav_left{
+	float:left;
+}
+.nav_main .nav_left span.first{
+	display: inline-block;
+	width:18px;
+	height:17px;
+	vertical-align: -2px;
+	background: url('../images/1.png');
+}
+.nav_main .nav_left a{
+	font-weight: 700;
+	color:#333;
+}
+.nav_main .nav_right{
+	float:right;
+}
+/*********************/
+   /****搜索栏****/
+/********************/
+.search{
+	width:100%;
+	background-color:#f62d2b;
+}
+.sear_main{
+	width:1000px;
+	background-color:#f62d2b;
+	margin:0 auto;
+	height:88px;
+}
+.sear_left{
+	float:left;
+}
+.sear_left .logo{
+	float:left;
+	width:121px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.sear_left .form{
+	float:left;
+	margin-top: 27px;
+	margin-left: 140px;
+}
+.sear_left .form input{
+	float:left;
+	width:360px;
+	height:35px;
+	border:0px;
+	line-height: 35px;
+}
+.sear_left .form button{
+	float:left;
+	width:72px;
+	height:35px;
+	background-color: #f80;
+	border:0px;
+	color:white;
+	font-size: 15px;
+	cursor: pointer;
+}
+.sear_right{
+	float:right;
+	margin-top: 27px;
+	margin-right: 60px;
+}
+.sear_right a{
+	display: block;
+	color:white;
+	font-size: 15px;
+	float:left;
+	background-color: #f80;
+	text-align: center;
+	line-height: 35px;
+}
+.sear_right a.car{
+	width:88px;
+	border-right:1px solid #e27a00;
+}
+.sear_right a.car span.active{
+	display: inline-block;
+	width:28px;
+	height:22px;
+	background: url('../images/3.png');
+	vertical-align: -4px;
+}
+.sear_right a.email span.active{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	background: url('../images/4.png');
+	vertical-align: -4px;
+}
+.sear_right a.email{
+	width:60px;
+}
+/********分类导航**********/
+.sec_nav{
+	width:100%;
+	background-color: #d30c0e;
+}
+.sec_main{
+	width:1000px;
+	margin:0 auto;
+	background-color: #d30c0e;
+	line-height: 35px;
+}
+.sec_main h3{
+	float:left;
+	color:white;
+	margin-left: 30px;
+	width:130px;
+	text-align: center;
+}
+.sec_main h3 span{
+	display: inline-block;
+	width:15px;
+	height:10px;
+	background: url('../images/5.png');
+	vertical-align: middle;
+}
+.sec_main ul{
+	float:left;
+}
+.sec_main ul li{
+	float:left;
+}
+.sec_main ul li:hover{
+	background-color: #f80;
+}
+.sec_main ul li a{
+	display: block;
+	text-align: center;
+	width:100px;
+	color:white;
+}
+/***主体部分***/
+.main{
+	width:1000px;
+	margin:0 auto;
+	margin-top: 15px;
+}
+.main .aside{
+	width:180px;
+	border:1px solid #ccc;
+	background-color: #f3f3f3;
+	float:left;
+}
+/*侧边栏部分*/
+.aside h3{
+	color:#555;
+	text-align: center;
+	line-height: 35px;
+	border-bottom: 1px solid #ccc;
+}
+.aside ul{
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 10px;
+	height:131px;
+}
+.aside ul.last{
+	border-bottom: 0px;
+}
+.aside ul h4{
+	color:#555;
+	margin-left: 15px;
+	line-height: 30px;
+}
+.aside ul li{
+	width:70px;
+	float:left;
+	margin-left: 15px;
+}
+.aside ul li:hover a{
+	color:orange;
+}
+.aside ul li a{
+	font: 12px/25px '微软雅黑';
+	display: block;
+}
+
+
+.main .goods{
+	float:right;
+	width:812px;
+}
+.goods h3{
+	line-height: 35px;
+	margin-left: 20px;
+	color:#555;
+}
+.goods h3.second{
+	margin-top: 30px;
+}
+.goods .line{
+	width:100%;
+	height:0px;
+	border-top:2px solid #ccc;
+	position: relative;
+}
+.line span{
+	display: block;
+	width:25%;
+	height:0px;
+	border-top:2px solid #096dba;
+	position: absolute;
+	left:0%;
+	top:-2px;
+}
+
+.goods ul{
+	height:584px;
+}
+.goods ul li{
+	width:190px;
+	float:left;
+	margin-left:10px;
+	margin-top: 30px;
+}
+.goods ul li p.first{
+	font-size: 13px;
+	color:#555;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.goods ul li p.first:hover a{
+	color:orange;
+}
+.goods ul li p.price{
+	font-weight: 700;
+	color:#d4107e;
+	margin-bottom: 5px;
+}
+.goods ul li p.last{
+	font-size: 13px;
+}
+.goods ul li p.last span.active{
+	display: inline-block;
+	width:80px;
+	height:18px;
+	background: url('../images/1s.png') repeat-x;
+	vertical-align: middle;
+}
+.goods ul li p.last a{
+	font-size: 13px;
+	color:#085c9b;
+}
+/****页面尾部****/
+.footer{
+	width:100%;
+	background: #d4d4d4;
+	margin-top: 40px;
+}
+.foot_main{
+	width:1000px;
+	background: #d4d4d4;
+	margin:0 auto;
+	
+	text-align: center;
+	overflow: hidden;
+	padding-bottom:50px;
+}
+.foot_main p.first{
+	margin-top: 43px;
+	line-height: 50px;
+	font-size: 13px;
+}
+.foot_main p.first a,.foot_main p.last a{
+	color:#333;
+	font-size: 13px;
+}
+.foot_main p.last{
+	line-height: 50px;
+}
+.foot_main img{
+	margin-left: 20px;
+}
